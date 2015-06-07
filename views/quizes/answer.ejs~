@@ -1,14 +1,2 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel='stylesheet' href='/stylesheets/style.css' />
-<title>Quiz</title>
-</head>
-<body>
-<h2>El Juego de las Preguntas</h2>
-<%= respuesta %><p>
-<a href="/quizes/question">Intentelo otra vez </a>
-
-</body>
-</html>
+<p class="respuesta"><%= respuesta %></p>
+    	<a href="/quizes/question" title="Volver atras">Inténtelo otra vez! </a>

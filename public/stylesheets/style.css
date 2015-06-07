@@ -1,8 +1,51 @@
+* {
+	margin: 0;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px Georgia, serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+a i {
+	color: black;
+	font-size: xx-large;
+}
+
+#autor {
+	margin: 5px;
+	width: 250px;
+	-moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    border-radius: 100px;
+}
+
+#page-wrap{
+	margin:2% auto;
+	color:white;
+}
+
+#page-wrap > .main {
+	border: 1px solid #999;
+	padding: 1%;
+	margin-bottom: 1px;
+	color: black;
+}
+
+section > div{
+	padding: 20px;
+}
+
+header, nav, section, footer {
+	background-color: #eee;
+	text-align: center;
+}
+
+nav span{
+	margin: 0px 10px 0px 0px;
 }

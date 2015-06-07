@@ -5,17 +5,18 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+
 var routes = require('./routes/index');
 
 
 var app = express();
 
 
+var partials = require('express-partials');
 
 
 
-
-
+app.use(partials());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
